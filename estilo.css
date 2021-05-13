@@ -1,0 +1,391 @@
+body {
+    background-color: black;
+}
+
+@keyframes anim1 {
+    0% {top: 250px; left: 0;}
+    50% {top: 125px; left: 0;}
+    100% {top: 0; left: 0;}
+}
+
+@keyframes anim2 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim3 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim4 {
+    0% {top: 250px; left: 300px; visibility: hidden;}
+    50% {top: 125px; left: 300px;}
+    100% {top: 0; left: 300px;}
+}
+
+@keyframes anim5 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim6 {
+    0%{height: 50px; visibility: hidden;}
+    25%{height: 100px;}
+    50%{height: 150px;}
+    75%{height: 200px;}
+    100%{height: 250px;}
+}
+
+@keyframes anim7 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim8 {
+    0%{height: 50px; top: 100px; bottom: 100px; visibility: hidden;}
+    25%{height: 100px; top: 75px; bottom: 75px;}
+    50%{height: 150px; top: 45px; bottom: 45px; }
+    75%{height: 200px; top: 20px; bottom: 30px;}
+    100%{height: 250px;}
+ 
+}
+
+@keyframes anim9 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim10 {
+    0%{height: 16px; visibility: hidden;}
+    25%{height: 32px;}
+    50%{height: 48px;}
+    75%{height: 64px;}
+    100%{height: 80px;}
+}
+
+@keyframes anim11 {
+    0%{width: 24px; visibility: hidden;}
+    25%{width: 48px;}
+    50%{width: 72px;}
+    75%{width: 96px;}
+    100%{width: 120px;}
+}
+
+@keyframes anim12 {
+    0%{height: 18px; visibility: hidden;}
+    25%{height: 36px;}
+    50%{height: 54px;}
+    75%{height: 72px;}
+    100%{height: 90px;}
+}
+
+@keyframes anim13 {
+    0%{width: 24px; visibility: hidden;}
+    25%{width: 48px;}
+    50%{width: 72px;}
+    75%{width: 96px;}
+    100%{width: 120px;}
+}
+
+@keyframes anim14 {
+    0%{height: 20px; visibility: hidden;}
+    25%{height: 40px;}
+    50%{height: 60px;}
+    75%{height: 80px;}
+    100%{height: 100px;}
+}
+
+@keyframes anim15 {
+    0%{width: 40px; visibility: hidden;}
+    25%{width: 80px;}
+    50%{width: 120px;}
+    75%{width: 160px;}
+    100%{width: 200px;}
+}
+
+@keyframes anim16 {
+    0%{top: 250px; visibility: hidden;}
+    25%{top: 120px;}
+    50%{top: 200px;}
+    75%{top: 250px;}
+    100%{top:0}
+}
+
+@keyframes anim17 {
+    0%{width: 50px; height: 50px; left: 1500px; visibility: hidden;}
+    25%{width: 100px; height: 100px; left: 1375px;}
+    50%{width: 150px; height: 150px; left: 1250px;}
+    75%{width: 200px; height: 200px; left: 1125px;}
+    100%{width: 250px; height: 250px; left: 1000px;}
+}
+
+
+/*sepração entre as class e os @keyframes*/
+
+.anim1 {
+    position: absolute;
+    background: white;
+    width: 40px;
+    height: 250px;
+    animation-name: anim1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+}
+
+.anim2 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    animation-name: anim2;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode:backwards;
+}
+
+.anim3 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    top: 80px;
+    animation-name: anim3;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: backwards;
+    animation-timing-function:linear;
+}
+
+.anim4 {
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    width: 50px;
+    left: 300px;
+    animation-name: anim4;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    
+}
+
+.anim5 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    left: 300px;
+    animation-name: anim5;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+}
+
+.anim6 {
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    width: 50px;
+    left: 450px;
+    animation-name: anim6;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+}
+
+.anim7 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    left: 300px;
+    top: 80px;
+    animation-name: anim7;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+}
+
+.anim8 {
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    width: 50px;
+    left: 600px;
+    animation-name: anim8;
+    animation-fill-mode: backwards;
+    animation-duration: 1.5s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+
+}
+
+.anim9 {
+    position: absolute;
+    background-color: white;
+    height: 40px;
+    width: 200px;
+    left: 600px;
+    border-top-right-radius: 30px;
+    animation-name: anim9;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+}
+
+.anim10 {
+    position: absolute;
+    background-color: white;
+    height: 80px;
+    width: 50px;
+    left: 750px;
+    border-top-right-radius: 20px;
+    animation-name: anim10;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+}
+
+.anim11 {
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    left: 680px;
+    top: 80px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    animation-name: anim11;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 7.5s;
+}
+
+.anim12 {
+    position: absolute;
+    background-color: white;
+    height: 90px;
+    width: 40px;
+    left: 670px;
+    top: 80px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    animation-name: anim12;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+
+}
+
+.anim13 {
+    position: absolute;
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    left: 680px;
+    top: 140px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    animation-name: anim13;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+}
+
+.anim14 {
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 50px;
+    left: 750px;
+    top: 150px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 20px;
+    animation-name: anim14;
+    animation-duration: 1s;
+    animation-fill-mode:backwards;
+    animation-timing-function: linear;
+    animation-delay: 8.5s;
+}
+
+.anim15 {
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    left: 600px;
+    top: 200px;
+    border-bottom-right-radius: 70px;
+    animation-name: anim15;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+
+}
+
+.anim16 {
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    width: 50px;
+    left: 900px;
+    animation-name: anim16;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 9s;
+}
+
+.anim17 {
+    position: absolute;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    left: 1000px;
+    border-radius: 100%;
+    animation-name: anim17;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-delay: 10.5s;
+}
+
+.anim18 {
+    position: absolute;
+    background-color: white;
+    height: 240px;
+    width: 240px;
+    top: 50%;
+    left: 50%;
+    margin-top: -120px;
+    margin-left: -120px;
+    border-radius: 100%;
+}
+
